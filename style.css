@@ -1,0 +1,190 @@
+/* =====FONTES===== */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+/* =====BACKGROUND===== */
+
+html {
+  background-color: rgb(33, 33, 33);
+  margin: 0px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+/* =====HEADER===== */
+
+header {
+  width: calc(100vw - 17px);
+  height: 47px;
+}
+
+.logo_youtube {
+  width: 90px;
+  position: absolute;
+  left: 67px;
+  top: 6px;
+}
+
+.icon_menu {
+  width: calc(2% - 17px);
+  margin-left: 20px;
+  position: absolute;
+  left: 3px;
+  top: 19px;
+}
+
+.pesquisa {
+  background-color: rgb(18, 18, 18);
+  width: 640px;
+  height: 37px;
+  margin-left: 560px;
+  margin-top: 9px;
+  border: 1px solid rgb(71, 71, 71);
+}
+
+.bot_pesq {
+  width: 10%;
+  height: 100%;
+  margin-left: 90%;
+  background-color: rgb(59, 59, 59);
+}
+
+.bot_pesquisa {
+  width: 28%;
+  margin-left: 24px;
+  margin-top: 9px;
+}
+
+/* =====MAIN===== */
+
+aside {
+  width: 72px;
+  height: 200vh;
+  border: 1px solid rgb(71, 71, 71);
+  float: left;
+  padding-top: 15px;
+  margin-left: -2px;
+}
+
+.temas_videos {
+  width: calc(100% - 81px);
+  height: 52px;
+  margin-left: 71px;
+  padding-left: 8px;
+  padding-top: 6px;
+  border: 1px solid rgb(71, 71, 71);
+}
+
+.videos {
+  width: calc(100% - 86px);
+  height: 305px;
+  padding: 6px;
+  margin: 0px;
+  display: inline-block;
+}
+
+.video {
+  width: calc(20% - 16px);
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
+.img01 {
+  width: 100%;
+}
+
+.img02 {
+  width: 15%;
+  margin: 8px 0px;
+  float: left;
+  border-radius: 30px;
+}
+
+.tit_video {
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+  margin-top: 3px;
+  margin-left: 60px;
+  margin-right: 38px;
+}
+
+.nome_canal {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-top: 8px;
+  margin-left: 60px;
+}
+
+.views_data {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-top: 4px;
+  margin-left: 60px;
+}
+
+.tema {
+  display: inline-block;
+  background-color: #3a3a3a;
+  padding: 8px 15px;
+  font-size: 16px;
+  margin: 7px 0px 7px 4px;
+  border-radius: 20px;
+  font-weight: 400;
+}
+
+.tema1 {
+  display: inline-block;
+  background-color: #fff;
+  color: #3a3a3a;
+  padding: 8px 15px;
+  font-size: 16px;
+  margin: 7px 0px 7px 4px;
+  border-radius: 20px;
+  font-weight: 400;
+}
+
+.icone_side {
+  width: 30px;
+}
+
+.lateral {
+  width: 72px;
+  height: 72px;
+  margin: 10px 22px;
+}
+
+hr {
+  width: 94%;
+  height: 5px;
+  background-color: #303030;
+  border: none;
+  margin: 45px auto 25px auto;
+}
+
+.noticias {
+  width: calc(100% - 86px);
+  height: 305px;
+  padding: 6px;
+  margin: 10px 0px;
+  display: inline-block;
+}
+
+.tit_not {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-left: 88px;
+}
+
+.subt_not {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-left: 88px;
+  margin-top: 7px;
+}
